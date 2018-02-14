@@ -40,8 +40,8 @@ RUN wget -nv -O osTicket.zip http://osticket.com/sites/default/files/download/os
     chmod -R a+rX /data/upload/ /data/scripts/ && \
     chmod -R u+rw /data/upload/ /data/scripts/ && \
     mv /data/upload/setup /data/upload/setup_hidden && \
-    chown -R root:root /data/upload/setup_hidden && \
-    chmod 700 /data/upload/setup_hidden
+    #chown -R root:root /data/upload/setup_hidden && \
+    #chmod 700 /data/upload/setup_hidden
 
 # Download languages packs
 RUN wget -nv -O upload/include/i18n/fr.phar http://osticket.com/sites/default/files/download/lang/fr.phar && \
