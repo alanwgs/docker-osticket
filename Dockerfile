@@ -1,6 +1,6 @@
 FROM php:7.0-fpm-alpine
 MAINTAINER Martin Campbell <martin@campbellsoftware.co.uk>
-
+User 0
 # setup workdir
 RUN mkdir /data
 WORKDIR /data
