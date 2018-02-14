@@ -39,7 +39,7 @@ RUN wget -nv -O osTicket.zip http://osticket.com/sites/default/files/download/os
     chown -R www-data:www-data /data/upload/ && \
     chmod -R a+rX /data/upload/ /data/scripts/ && \
     chmod -R u+rw /data/upload/ /data/scripts/ && \
-    mv /data/upload/setup /data/upload/setup_hidden && \
+    mv /data/upload/setup /data/upload/setup_hidden
     #chown -R root:root /data/upload/setup_hidden && \
     #chmod 700 /data/upload/setup_hidden
 
